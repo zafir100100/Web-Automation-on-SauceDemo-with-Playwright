@@ -1,4 +1,4 @@
-# Web-Automation-with-Cypress
+# Web-Automation-with-Playwright
 
 ## What is Automation?
 
