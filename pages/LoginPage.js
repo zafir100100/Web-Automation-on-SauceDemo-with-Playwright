@@ -1,10 +1,9 @@
 class LoginPage {
   constructor(page) {
     this.page = page;
-    this.username_textbox = page.getByLabel('user-name');
-    this.password_textbox = page.getByLabel('password');
-    this.login_button = page.getByLabel('login-button');
-    // this.login_button = page.getByRole('button', { name: 'Login' });
+    this.username_textbox = page.locator('[id="user-name"]');
+    this.password_textbox = page.locator('[id="password"]');
+    this.login_button = page.locator('[id="login-button"]');
   }
 
   async gotoLoginPage() {
@@ -18,4 +17,4 @@ class LoginPage {
   }
 }
 
-export default LoginPage;
+module.exports = LoginPage;
