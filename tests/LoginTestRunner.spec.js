@@ -1,4 +1,4 @@
-const { test, expect } = require('@playwright/test');
+const { test, expect, beforeAll, afterAll } = require('@playwright/test');
 const LoginPage = require('../pages/LoginPage');
 const ProductPage = require('../pages/ProductPage');
 require('dotenv').config() // read variables from .env file
@@ -23,4 +23,15 @@ test('Login Test - Successful login with standard user', async ({ page }) => {
 //     await expect(page.url()).toBe('https://www.saucedemo.com/inventory.html'); // Expect the URL to be 'https://www.saucedemo.com/inventory.html'
 //     const productPage = new ProductPage(page);
 //     await expect(productPage.products_label).toHaveText('Products'); // Expect the 'products_label' locator to have text 'Products'.
+// });
+
+
+// test.beforeAll(async () => {
+//     // Delay before all tests start (1 seconds)
+//     await new Promise((resolve) => setTimeout(resolve, 1000));
+// });
+
+// test.afterAll(async () => {
+//     // Delay after all tests complete (2 seconds)
+//     await new Promise((resolve) => setTimeout(resolve, 2000));
 // });
