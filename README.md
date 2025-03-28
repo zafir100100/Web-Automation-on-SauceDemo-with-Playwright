@@ -1,5 +1,9 @@
 # Web-Automation-with-Playwright
 
+## Video
+
+https://github.com/user-attachments/assets/35c8edae-b415-4124-8c91-64ae5273de5a
+
 ## What is Automation?
 
 Automation is the practice of using software tools and scripts to perform tasks that would typically require human intervention. In the context of software testing, automation involves using specialized tools to execute test cases and compare the actual outcomes with the expected results automatically.
@@ -48,5 +52,9 @@ npm test
 #### **Expected Result:**
 - The user should be redirected to the Products page
 - The page should display the title **"Products"**
+
+## Screenshot (Report)
+
+![image](https://github.com/user-attachments/assets/0d2a2c5e-a9ed-4d21-8a3d-995653435e5c)
 
 
