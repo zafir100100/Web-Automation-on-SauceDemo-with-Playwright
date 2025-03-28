@@ -26,12 +26,27 @@ Overall, Playwright is a powerful and efficient tool for web automation that can
 - Javascript
 
 ## How to run this project
+```sh
+# Clone this project
 
-- Clone this project
-- First install dependencies:
- ```npm install```
- 
-- Then run the test:
- ```npx playwright test```
+# Install dependencies
+npm install
+
+# Run tests:
+npm test
+```
+## Test Scenario: Login and Verify Products Page
+
+### **Test Case 1: Successful Login**
+#### **Steps:**
+1. Navigate to `https://www.saucedemo.com/`
+2. Enter a valid username (`standard_user`)
+3. Enter a valid password (`secret_sauce`)
+4. Click on the login button
+5. Verify that the login is successful by checking the presence of the products label
+
+#### **Expected Result:**
+- The user should be redirected to the Products page
+- The page should display the title **"Products"**
 
 
